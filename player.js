@@ -1,7 +1,7 @@
 const { Player } = TextAliveApp;
 
 const player = new Player({
-  app: { token: "aB9rO5Q99KqkSuKj" },
+  app: { token: "mmPkAY6YUodJDGQs" },
 });
 
 
