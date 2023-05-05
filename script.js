@@ -27,7 +27,7 @@ function init(){
       });
 
     for(let i = 0; i < 2500; i++){
-      const mesh = new THREE.mesh(geometry.material);
+      const mesh = new THREE.Mesh(geometry.material);
 
       mesh.position.x = 8000 * (2.0 * Math.random() - 1.0);
       mesh.position.y = 8000 * (2.0 * Math.random() - 1.0);
